@@ -1,0 +1,90 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url('abtimg.jpg'); /* Use your background image URL here */
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the background image */
+}
+
+/* Other CSS styles... */
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: rgba(47, 47, 47, 0.1); /* Change the alpha value to adjust transparency */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center; /* Center align content in header */
+    position: relative; /* Add position relative for video positioning */
+}
+
+.logo {
+    display: inline-block;
+    max-width: 200px; /* Adjust the maximum width of the logo */
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    flex: 1; /* Allow main content to grow to fill remaining space */
+    padding: 20px 0; /* Add padding to the main content */
+}
+
+.center-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 18px;
+    color: aliceblue;
+}
+.porsche-text {
+    color: #ff0000; /* Change to the color you desire */
+}
+
+
+
+
+
+
+
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(51, 51, 51, 0.4);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
